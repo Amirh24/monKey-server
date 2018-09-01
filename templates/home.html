@@ -1,0 +1,33 @@
+<!-- templates/homeDEV.html -->
+<html>
+    <head>
+        <title>Banano monKey generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    </head>
+
+    <body>
+        <h1>Banano monKey generator</h1>
+        <h2>generate monKey</h2>
+        <p>Banano Address : <input id="address" type="text" name="address" maxlength="64" size="64" /></p>
+        <p><input type="button" value="Generate monKey" onclick="loadImage()" /></p>
+
+        <img id="monKey" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" align="top" width="731" height = "731">
+
+
+        <script>
+            function loadImage() {
+                var address = document.getElementById('address').value;
+                var re = new RegExp('^ban_[013-9a-km-uw-z]{60}$');
+                var isABananoAddress = re.test(address)
+                if(isABananoAddress){
+                    var url = "http://bananomonkeys.herokuapp.com/image/svg/monkey/" + address;
+                    var img = document.getElementById("monKey");
+                    img.src = url;
+                }
+                else{
+                    alert("Please input a valid Banano wallet address")
+                }
+            }
+        </script>
+    </body>
+</html>
