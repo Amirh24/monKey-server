@@ -110,7 +110,7 @@ def monkey_image(address, background='nobg', accesories='full', format='svg'):
             path = 'images/' + format + '/vanity/Vanity-' + address + '.' + format
     # For non cloudfront serving: return redirect(url_for('static', filename=path))
     # Retrieve the image from cloudfront
-    return redirect('http://d3tynpbz5c31ci.cloudfront.net/static/' + path)
+    return redirect('https://d3tynpbz5c31ci.cloudfront.net/static/' + path)
 
 
 if __name__ == "__main__":
