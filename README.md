@@ -5,6 +5,6 @@ Each monKey corresponds to a unique public key, which means that you are the sol
 
 www.monkeygen.com
 
-![monKey example](https://bananomonkeys.herokuapp.com/image?address=ban_35ofhtraewjnrfqq9hzxc9m3b18yb3adcokharguonbsn5fbyhnmg5ckssu6 "monKey example")
+![monKey example](https://bananomonkeys.herokuapp.com/image?address=ban_3tapge8i4kw9wa4irgda7epm4gaurr4rnp7ybjziphkt48afd6ba5pnaegs6 "monKey example")
 
 [Coming soon promo](https://www.youtube.com/watch?v=5xHQvnX8rLY)
