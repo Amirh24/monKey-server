@@ -13,7 +13,7 @@ Flask-Cors==3.0.6
 Flask-S3==0.3.3
 gunicorn==19.9.0
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 jmespath==0.9.3
 lxml==4.2.4
 MarkupSafe==1.0
