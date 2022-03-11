@@ -17,7 +17,7 @@ Jinja2==2.10
 jmespath==0.9.3
 lxml==4.2.4
 MarkupSafe==1.0
-Pillow==5.2.0
+Pillow==9.0.1
 pycparser==2.18
 python-dateutil==2.7.3
 s3transfer==0.1.13
