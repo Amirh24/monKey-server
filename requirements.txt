@@ -24,4 +24,4 @@ s3transfer==0.1.13
 six==1.11.0
 tinycss2==0.6.1
 webencodings==0.5.1
-Werkzeug==0.14.1
+Werkzeug==0.15.5
